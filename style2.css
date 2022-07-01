@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+#AboutLucid {
+  position: relative;
+}
+.para {
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+.para h1 {
+  margin: 0;
+  position: absolute;
+  font-size: 30px;
+  left: 5vw;
+  bottom: 80vh;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 5px;
+}
+
+.para h2 {
+  margin: 0;
+  position: absolute;
+  font-size: 30px;
+  left: 5vw;
+  bottom: 70vh;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 5px;
+}
+
+.para p {
+  margin: 0;
+  position: absolute;
+  font-size: 30px;
+  left: 5vw;
+  bottom: 20vh;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 4px;
+}

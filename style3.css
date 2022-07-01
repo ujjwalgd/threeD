@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+body {
+  margin: 0;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.headingText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingText h1 {
+  width: 50vw;
+  position: absolute;
+  font-size: 20px;
+  bottom: 30vh;
+  color: #37e2d5;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 5px;
+}

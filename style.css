@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.headingText {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingText h1 {
+  position: absolute;
+  font-size: 150px;
+  bottom: 35vh;
+  color: #000000;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 20px;
+}
+
+.menus_opt {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.menus_opt a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s color;
+  transition: 0.5s font-size;
+}
+
+.menus_opt a:hover {
+  color: #ffd300;
+  font-size: 50px;
+}
+
+.menu_1 {
+  margin: 0;
+  position: absolute;
+  font-size: 30px;
+  bottom: 70vh;
+  left: 15vw;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 5px;
+}
+
+.menu_2 {
+  margin: 0;
+  position: absolute;
+  font-size: 30px;
+  bottom: 70vh;
+  right: 15vw;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 5px;
+}
+
+.menu_3 {
+  margin: 0;
+  position: absolute;
+  font-size: 30px;
+  bottom: 5vh;
+  left: 45vw;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 5px;
+}
